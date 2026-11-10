@@ -1,4 +1,8 @@
 import { LookbookItem, ProcessStep, TestimonialItem } from '../types';
+import traditionalCoutureImg from '../assets/images/gallery_traditional_couture_1793993938315.jpg';
+import eveningGownImg from '../assets/images/gallery_evening_gown_1793993938200.jpg';
+import contemporarySuitImg from '../assets/images/gallery_contemporary_suit_1793993939607.jpg';
+import ceremonialAttireImg from '../assets/images/gallery_ceremonial_attire_1793993939117.jpg';
 
 export const LOOKBOOK_ITEMS: LookbookItem[] = [
   {
@@ -7,7 +11,7 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     subtitle: 'Héritage Royal & Broderies Dorées',
     category: 'traditionnel',
     categoryLabel: 'Tenue Traditionnelle',
-    image: '/src/assets/images/gallery_traditional_couture_1793993938315.jpg',
+    image: traditionalCoutureImg,
     description: 'Une interprétation majestueuse du grand boubou d’apparat malien, confectionné dans un Bazin riche teinté artisanalement à la main à Bamako avec des nuances d’indigo royal et réhaussé de broderies au fil d’or champagne.',
     fabrics: ['Bazin Riche Supérieur teinté main', 'Fil à broder doré métallisé', 'Finitions col officier'],
     atelierNotes: 'Plus de 45 heures de broderie manuelle réalisée par les maîtres brodeurs de notre atelier du Quartier du Fleuve.',
@@ -19,7 +23,7 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     subtitle: 'Velours Burgundy & Soie Tissée',
     category: 'soiree',
     categoryLabel: 'Robe Élégante',
-    image: '/src/assets/images/gallery_evening_gown_1793993938200.jpg',
+    image: eveningGownImg,
     description: 'Robe de gala haute couture alliant un velours soyeux bordeaux profond à un corsage structuré aux motifs géométriques mandingues. Silhouette drapée fluide offrant un port princier.',
     fabrics: ['Velours de soie burgundy', 'Tissage jacquard géométrique', 'Doublure satinée respirante'],
     atelierNotes: 'Buste structuré à baleines souples épousant parfaitement la cambrure naturelle.',
@@ -31,7 +35,7 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     subtitle: 'Coupe Architecturale & Motifs Terre',
     category: 'contemporain',
     categoryLabel: 'Mode Africaine Contemporaine',
-    image: '/src/assets/images/gallery_contemporary_suit_1793993939607.jpg',
+    image: contemporarySuitImg,
     description: 'L’élégance urbaine sublimée par l’art ancestral du Bogolan. Épaulettes franches, cintrage millimétré et pantalon palazzo fluide pour une allure affirmée et avant-gardiste.',
     fabrics: ['Coton bio filé main', 'Teinture minérale naturelle à la terre de fer', 'Boutons en laiton brossé'],
     atelierNotes: 'Chaque pan de tissu est dessiné et séché au soleil de Bamako selon les rituels traditionnels de San.',
@@ -43,7 +47,7 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     subtitle: 'Chocolat Profond & Ramages Or Brossé',
     category: 'ceremonie',
     categoryLabel: 'Tenue de Cérémonie',
-    image: '/src/assets/images/gallery_ceremonial_attire_1793993939117.jpg',
+    image: ceremonialAttireImg,
     description: 'Une pièce d’apparat sculpturale conçue pour les plus grandes réceptions et mariages princiers. Manches pagodes volumineuses et ramages dorés symbolisant fertilité et noblesse.',
     fabrics: ['Soie sauvage chocolat 240g', 'Broderie cannetille dorée', 'Coiffe coordonnée sculptée'],
     atelierNotes: 'Ornementation inspirée des insignes royaux de l’empire de Ségou, réalisée sur commande exclusive.',
@@ -55,7 +59,7 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     subtitle: 'Légèreté Quotidienne & Finitions Coutures',
     category: 'pret-a-porter',
     categoryLabel: 'Prêt-à-Porter',
-    image: '/src/assets/images/gallery_contemporary_suit_1793993939607.jpg',
+    image: contemporarySuitImg,
     description: 'La quintessence du chic décontracté pour vos voyages et réceptions mondaines. Coupe fluide, matières thermorégulatrices et tombé impeccable.',
     fabrics: ['Lin lavé ivoire', 'Liseré brodé champagne', 'Fermetures magnétiques invisibles'],
     atelierNotes: 'Série capsule limitée à 15 exemplaires numérotés par coloris.',
