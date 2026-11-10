@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --color-ivory: #F6F1E9;
+  --color-chocolate: #291A17;
+  --color-burgundy: #641D32;
+  --color-gold: #C5A46D;
+  --color-charcoal: #191715;
+}
+
+:root {
+  --ivory: #F6F1E9;
+  --chocolate: #291A17;
+  --burgundy: #641D32;
+  --gold: #C5A46D;
+  --charcoal: #191715;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--ivory);
+  color: var(--charcoal);
+  overflow-x: hidden;
+}
+
+.font-editorial {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #291A17;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A46D;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #641D32;
+}
+
+/* Luxury hairline separator */
+.hairline-gold {
+  border-color: rgba(197, 164, 109, 0.25);
+}
+
+.hairline-dark {
+  border-color: rgba(25, 23, 21, 0.12);
+}
+
+/* Glass crystal styling */
+.glass-crystal {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-crystal-dark {
+  background: rgba(25, 23, 21, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 164, 109, 0.25);
+}
+
+/* Smooth floating animations */
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes floatAlt {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+.animate-float-alt {
+  animation: floatAlt 6s ease-in-out infinite 1.5s;
+}
+
+.animate-float-slow {
+  animation: floatGentle 7s ease-in-out infinite 3s;
+}
+
+/* Horizontal auto-marquee */
+@keyframes marqueeTrack {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marqueeTrack 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

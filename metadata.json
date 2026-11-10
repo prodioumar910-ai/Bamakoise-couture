@@ -1,0 +1,6 @@
+{
+  "name": "BAMAKO COUTURE — Maison de Haute Couture",
+  "description": "L'élégance a une signature. Maison de couture africaine d'exception à Bamako, Mali. Confection sur mesure, créations traditionnelles raffinées et prêt-à-porter contemporain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
